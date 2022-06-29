@@ -95,3 +95,16 @@ print(winning_candidate_summary)
 # votes to the terminal.
 
 print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+# 3. Print the total votes
+print(total_votes)
+
+# Print the candidate vote dictionary
+print(candidate_votes)
+
+
+
+
+
+
+# Close the file.
