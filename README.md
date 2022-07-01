@@ -17,7 +17,7 @@ Resources for this project included:
 - Software: Python 3.7.6, Visual Studio Code, 1.38.1
 
 ## Summary
-The analysis of the election, [as seen in the election analysis text file we generated](), show that:
+The analysis of the election, [as seen in the election analysis text file we generated](https://github.com/josephrodini/Election_Analysis/blob/main/Resources/election_analysis.png), show that:
 1. There were 369,711 votes cast.
 2. The candidates receiving votes were:
   - Charles Casper Stockham
@@ -40,4 +40,4 @@ The election data was tabulated into a comma-separated values file which proved 
 ## Challenge Summary
 Tom can rest easy knowing that, thanks to Python and Visual Studio Code, we know who won the election and by what margin.
 
-In addition, it is recommended that Tom use this script to audit more elections. So long as the election data is compiled into a .csv file, this script can be repurposed. 
+In addition, it is recommended that Tom use this script to audit more elections. So long as the election data is compiled into a .csv file, this script can be repurposed. For example, the script can analyze any additional columns of data so long as the row[] line of code is changed to match the column to be analyzed. This means we could analyze ballots with more than one candidate on them. Another way this code could be repurposed for other elections is if  
