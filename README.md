@@ -8,6 +8,8 @@ A Colorado Board of Elections employee, Tom, needed help completing an election 
 3. Calculating the total number of votes each candidate received.
 4. Calculating the percentage of votes each candidate won.
 5. Determining the winner of the election based on popular vote.
+6. Getting the percentage of votes cast in each county.
+7. Determining the county with the most votes cast.
 
 ## Resources
 Resources for this project included:
@@ -15,7 +17,7 @@ Resources for this project included:
 - Software: Python 3.7.6, Visual Studio Code, 1.38.1
 
 ## Summary
-The analysis of the election show that:
+The analysis of the election, [as seen in the election analysis text file we generated](), show that:
 1. There were 369,711 votes cast.
 2. The candidates receiving votes were:
   - Charles Casper Stockham
@@ -26,10 +28,16 @@ The analysis of the election show that:
   - Diana DeGette received 73.8% of the vote and 272,892 votes.
   - Raymon Anthony Doane  received 3.1% of the vote and 11,606 votes.
 5. The winner of the election was Diana DeGette, who received 73.8% of the vote and 272,892 votes.
+6. The three counties voting in the election include:
+  - Jefferson County, which cast 38,855 votes, or 10.5%.
+  - Denver County, which cast 306,055 votes, or 82.8%.
+  - Arapahoe County, which cast 24,801 votes, or 6.7%.
+7. The county casting the most votes was Denver County.
 
 ## Challenge Overview
-The election data was tabulated into a comma-separated values file which proved to be easy to analyze as it was well-formatted and had no missing or error-riddled data, such as mispelled candidate names. 
+The election data was tabulated into a comma-separated values file which proved to be easy to analyze as it was well-formatted and had no missing or error-riddled data, such as mispelled county or candidate names. 
 
 ## Challenge Summary
 Tom can rest easy knowing that, thanks to Python and Visual Studio Code, we know who won the election and by what margin.
 
+In addition, it is recommended that Tom use this script to audit more elections. So long as the election data is compiled into a .csv file, this script can be repurposed. 
